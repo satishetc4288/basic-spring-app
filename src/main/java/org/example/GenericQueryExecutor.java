@@ -3,7 +3,7 @@ package org.example;
 import java.sql.*;
 import java.util.Arrays;
 
-public class Main {
+public class GenericQueryExecutor {
     public static void main(String[] args) throws Exception {
         Arrays.stream(args).forEach(System.out::println);
         Class.forName("com.mysql.cj.jdbc.Driver");
